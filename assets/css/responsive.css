@@ -1,0 +1,284 @@
+/* ==========================================
+   Learn Cyber With Vano
+   Responsive Stylesheet
+========================================== */
+
+/* ===========================
+   Laptop
+=========================== */
+
+@media (max-width:1200px){
+
+    .container{
+
+        width:92%;
+
+    }
+
+}
+
+/* ===========================
+   Tablet
+=========================== */
+
+@media (max-width:992px){
+
+    .hero h2{
+
+        font-size:42px;
+
+    }
+
+    .article-page .container{
+
+        grid-template-columns:1fr;
+
+    }
+
+    .table-of-content{
+
+        position:relative;
+
+        top:0;
+
+    }
+
+    .category-list{
+
+        grid-template-columns:1fr;
+
+    }
+
+}
+
+/* ===========================
+   Mobile
+=========================== */
+
+@media (max-width:768px){
+
+    header .container{
+
+        flex-direction:column;
+
+        gap:20px;
+
+    }
+
+    nav ul{
+
+        flex-wrap:wrap;
+
+        justify-content:center;
+
+    }
+
+    .hero{
+
+        padding:90px 0;
+
+    }
+
+    .hero h2{
+
+        font-size:34px;
+
+    }
+
+    .hero p{
+
+        font-size:16px;
+
+    }
+
+    .page-header h2{
+
+        font-size:32px;
+
+    }
+
+    .article-content{
+
+        padding:25px;
+
+    }
+
+    .article-content h1{
+
+        font-size:34px;
+
+    }
+
+    .article-content h2{
+
+        font-size:28px;
+
+    }
+
+    .article-content h3{
+
+        font-size:24px;
+
+    }
+
+    .article-navigation .container{
+
+        flex-direction:column;
+
+    }
+
+    .contact-form form{
+
+        gap:15px;
+
+    }
+
+}
+
+/* ===========================
+   Small Mobile
+=========================== */
+
+@media (max-width:576px){
+
+    .container{
+
+        width:94%;
+
+    }
+
+    .hero h2{
+
+        font-size:28px;
+
+    }
+
+    .page-header h2{
+
+        font-size:28px;
+
+    }
+
+    .btn{
+
+        width:100%;
+
+        text-align:center;
+
+    }
+
+    .search-section input{
+
+        font-size:15px;
+
+    }
+
+    .filter-btn{
+
+        width:100%;
+
+    }
+
+    .article-card{
+
+        width:100%;
+
+    }
+
+    .article-content{
+
+        padding:20px;
+
+    }
+
+    pre{
+
+        padding:15px;
+
+    }
+
+}
+
+/* ===========================
+   Extra Small
+=========================== */
+
+@media (max-width:400px){
+
+    .logo h1{
+
+        font-size:22px;
+
+    }
+
+    nav ul{
+
+        gap:12px;
+
+    }
+
+    .hero{
+
+        padding:70px 0;
+
+    }
+
+    .hero h2{
+
+        font-size:24px;
+
+    }
+
+    .hero p{
+
+        font-size:15px;
+
+    }
+
+    .page-header{
+
+        padding:60px 0 30px;
+
+    }
+
+    .article-content h1{
+
+        font-size:28px;
+
+    }
+
+    .article-content h2{
+
+        font-size:24px;
+
+    }
+
+    .article-content h3{
+
+        font-size:20px;
+
+    }
+
+    .contact-card{
+
+        padding:18px;
+
+    }
+
+}
+
+/* ===========================
+   Landscape Mobile
+=========================== */
+
+@media (max-height:500px){
+
+    .hero{
+
+        padding:60px 0;
+
+    }
+
+}
+
+/* End */
